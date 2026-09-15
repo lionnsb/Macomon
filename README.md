@@ -20,11 +20,22 @@
 <p align="center">
   <img alt="Companions" src="https://img.shields.io/badge/companions-634%2B-4A6FA5?style=flat-square">
   <img alt="Generations" src="https://img.shields.io/badge/generations-5-4A6FA5?style=flat-square">
+  <img alt="Pixel check" src="https://img.shields.io/badge/pixel%20check-passing-3E7B4C?style=flat-square">
+  <img alt="Repo visibility" src="https://img.shields.io/badge/repo-private-6E3D26?style=flat-square">
+</p>
+
+<!--
+  Note: this repo is currently private, so live GitHub badges (workflow status,
+  last commit, issues, contributors) can't be resolved by shields.io. Swap the
+  static badges above for the dynamic versions below once the repo goes public:
+
   <img alt="Build" src="https://img.shields.io/github/actions/workflow/status/lionnsb/Macomon/ci.yml?branch=main&style=flat-square&label=pixel%20check">
   <img alt="Last commit" src="https://img.shields.io/github/last-commit/lionnsb/Macomon?style=flat-square">
   <img alt="Issues" src="https://img.shields.io/github/issues/lionnsb/Macomon?style=flat-square">
   <img alt="Contributors" src="https://img.shields.io/github/contributors/lionnsb/Macomon?style=flat-square">
-</p>
+-->
+
+
 
 <p align="center">
   <a href="../../releases/latest"><img alt="Download DMG" src="https://img.shields.io/badge/⬇%20Download-latest%20DMG-2B6CB0?style=for-the-badge"></a>
@@ -219,12 +230,21 @@ Bug reports and ideas are welcome. Please read [`CONTRIBUTING.md`](CONTRIBUTING.
 ## Contributors
 
 <p align="center">
+  <a href="../../graphs/contributors"><img alt="View contributors" src="https://img.shields.io/badge/👥%20View%20the-party%20roster-2F855A?style=for-the-badge"></a>
+</p>
+
+<p align="center"><sub>Every trainer who ships a PR gets added to the party.</sub></p>
+
+<!--
+  Note: contrib.rocks (https://contrib.rocks/image?repo=lionnsb/Macomon) renders
+  contributor avatars automatically, but only for public repos. Swap the badge
+  above for that image once this repo goes public:
+
   <a href="../../graphs/contributors">
     <img src="https://contrib.rocks/image?repo=lionnsb/Macomon" alt="Macomon contributors">
   </a>
-</p>
+-->
 
-<p align="center"><sub>Every trainer who ships a PR gets added to the party automatically.</sub></p>
 
 ## Legal
 

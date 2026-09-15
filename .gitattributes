@@ -1,0 +1,7 @@
+*.gif binary
+*.icns binary
+*.png binary
+*.dmg binary
+*.swift text eol=lf
+*.sh text eol=lf
+*.md text eol=lf

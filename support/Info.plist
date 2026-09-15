@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>de</string>
+    <key>CFBundleExecutable</key>
+    <string>Macomon</string>
+    <key>CFBundleIdentifier</key>
+    <string>de.lionseyer.macomon</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIconFile</key>
+    <string>Macomon</string>
+    <key>CFBundleName</key>
+    <string>Macomon</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.4.0</string>
+    <key>CFBundleVersion</key>
+    <string>5</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSLocationUsageDescription</key>
+    <string>Macomon verwendet deinen ungefähren Standort ausschließlich, um Figuren auf das lokale Wetter reagieren zu lassen.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Macomon verwendet deinen ungefähren Standort ausschließlich, um Figuren auf das lokale Wetter reagieren zu lassen.</string>
+</dict>
+</plist>

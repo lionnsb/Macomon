@@ -1,0 +1,20 @@
+# Swift / Xcode
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Built products
+dist/*
+!dist/.gitkeep
+*.app
+*.dmg
+
+# Local editor and macOS files
+.DS_Store
+**/.DS_Store
+.vscode/
+
+# Local design drafts
+Codex-Bild*.png

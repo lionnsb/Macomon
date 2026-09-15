@@ -1,0 +1,12 @@
+MACOMON INSTALLIEREN
+====================
+
+Version 1.4.0
+
+1. Macomon.app auf den Alias „Programme“ ziehen.
+2. Macomon anschließend aus dem Programme-Ordner öffnen.
+3. Beim ersten Start wird Autostart automatisch eingerichtet.
+
+Die Einstellung lässt sich jederzeit im Pfoten-Menü unter
+„Bei Anmeldung starten“ ändern. Falls macOS eine Freigabe verlangt,
+öffnet Macomon die passende Systemeinstellung.

@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest a new behavior, companion, or Macomon feature.
+title: "[Idea]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should Macomon do?
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why it would be useful
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: Optional assets or references
+      description: Only attach material you have permission to share.

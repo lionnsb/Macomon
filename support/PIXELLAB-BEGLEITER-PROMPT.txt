@@ -1,0 +1,76 @@
+PIXELLAB-PROMPT FÜR NEUE MACOMON-BEGLEITER
+===========================================
+
+Erstelle ein vollständiges Pixel-Art-Animationspaket für einen Desktop-Begleiter.
+
+TIER
+- Tier: [TIERNAME]
+- Besondere Merkmale: [FELLFARBE, OHREN, SCHWANZ, MUSTER, ACCESSOIRES]
+- Charakter: süß, freundlich, verspielt und klar lesbar – auch in sehr kleiner Darstellung
+
+LOOK & KONSISTENZ
+- Hochwertiger warmer 8-/16-Bit-Pixel-Art-Look
+- Niedliche Chibi-Proportionen: leicht übergroßer Kopf, kompakter Körper, ausdrucksstarke Augen
+- Dunkle, pixelgenaue Kontur; warme Farbabstufungen und gezielte helle Highlights
+- Alle Animationen müssen exakt dieselbe Figur, Farbpalette, Körpergröße, Proportionen und Blickrichtung verwenden
+- Keine stilistischen Abweichungen zwischen den Animationen
+- Keine Glättung, kein Anti-Aliasing, keine halbtransparenten Randpixel und kein Motion Blur
+- Keine Schrift, kein Hintergrund, kein Bodenschatten und kein Rahmen
+- Transparenter Hintergrund mit sauberer binärer Alpha-Kante
+- Pixel ausschließlich per Nearest-Neighbor skalieren
+
+TECHNISCHE VORGABEN
+- Jede Einzelanimation: exakt 64 × 64 Pixel
+- 6 unterschiedliche transparente Quellframes pro Animation
+- Bewegungen mit ungefähr 8 FPS beziehungsweise 100–125 ms pro Bild abspielen
+- Ruhige Animationen dürfen einzelne Frames für Blinzeln oder Posen länger halten und für einen weichen Ping-Pong-Loop in umgekehrter Reihenfolge wiederholen
+- Endlosschleife mit sauberem Übergang vom letzten zum ersten Frame
+- Figur in jedem Frame auf derselben Grundlinie ausrichten
+- Genügend transparenten Sicherheitsabstand an allen Seiten lassen
+- Keine abgeschnittenen Ohren, Schwänze, Sprünge, Gegenstände oder Effekte
+- Kein ungewolltes Zittern, Springen, Skalieren oder Verschieben zwischen Frames
+- Rechtslauf und Linkslauf als eigenständige, korrekt gezeichnete Animationen liefern
+
+DATEIEN
+Liefere pro Verhalten ein animiertes GIF mit transparentem Hintergrund, optional ein horizontales PNG-Spritesheet mit 6 Frames und optional die 6 transparenten Einzelbilder.
+
+Benennung exakt nach diesem Schema:
+- default_idle_8fps.gif
+- default_walk_8fps.gif              (läuft nach rechts)
+- default_walk_left_8fps.gif         (läuft nach links)
+- default_<animationsname>_8fps.gif
+
+Verwende ausschließlich Kleinbuchstaben und Unterstriche. Keine Leerzeichen, Umlaute oder wechselnden Dateinamen.
+
+PFLICHTANIMATIONEN
+- idle – ruhiges Atmen und gelegentliches Blinzeln
+- walk – natürlicher Lauf nach rechts
+- walk_left – natürlicher Lauf nach links
+- sleep_zzz – eingerollt oder hingelegt schlafen, kleine Zzz-Partikel
+- happy_hearts – glückliche Reaktion mit kleinen Herzen
+- sit_tail_sway – ruhig sitzen, Schwanz oder Körper sanft bewegen
+- eat_treat – einen artspezifischen Snack essen
+- jump – kurzer freudiger Sprung
+- roll_over – eine vollständige Rolle
+- dance – kleiner fröhlicher Tanz
+- wave – freundlich winken
+- clap – begeistert klatschen
+- scratch_head – verwirrt oder neugierig am Kopf kratzen
+- play_object – mit einem für das Tier passenden Gegenstand spielen
+- sneeze – kurze Niesanimation
+- rain_<schutzname> – bei Regen unter einem Schirm oder artspezifischen Regenschutz sitzen; der Name muss mit rain_ beginnen, zum Beispiel rain_umbrella oder rain_leaf
+- frontflip – kleiner Vorwärtssalto
+
+ARTSPEZIFISCHE ZUSATZANIMATIONEN
+[ZUSÄTZLICHE_ANIMATIONEN – jeweils als „dateiname – genaue sichtbare Aktion“ eintragen]
+
+WICHTIG FÜR WETTERANIMATIONEN
+Bei rain_umbrella müssen sichtbare Regentropfen und ein eindeutig erkennbarer Regenschutz vorhanden sein. Die Hauptfigur muss farblich und proportional exakt den übrigen Animationen entsprechen.
+
+QUALITÄTSPRÜFUNG VOR DER AUSGABE
+- Alle GIFs öffnen und die Frames kontrollieren
+- Transparenz, 64 × 64 Pixel, eingebettete Frame-Zeiten und Endlosschleife prüfen
+- Figur und Palette über alle Dateien vergleichen
+- Sicherstellen, dass kein Frame abgeschnitten ist
+- Sicherstellen, dass die Dateinamen exakt stimmen
+- Eine manifest.json mit Dateiname, Animationsname, Frameanzahl, FPS, Abmessungen und Laufrichtung mitliefern

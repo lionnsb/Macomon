@@ -1,0 +1,26 @@
+name: Pixel Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    name: Build and self-test
+    runs-on: macos-14
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build Macomon
+        run: swift build
+
+      - name: Run resource and behavior self-test
+        run: swift run Macomon --self-test
